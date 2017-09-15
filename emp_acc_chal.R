@@ -16,7 +16,7 @@ library("class")
 library("Metrics")
 
 
-wine <- read.csv("/Users/saivamsi/Downloads/mxs146030_sxm154231 copy/data.csv", header=TRUE)
+wine <- read.csv("/Users/anushakaranam/Downloads/mxs146030_sxm154231 copy/data.csv", header=TRUE)
 attach(wine)
 value <- as.integer(1)
 write("wine data set:", file="output.txt",append=TRUE)
